@@ -12,7 +12,29 @@
 
     <div class="container">
         <div id="game" class="flex-center justify-center">
-            <h2 id="question">What is the answer to this question ?</h2>
+            <div id="hud">
+                <div id="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull">
+
+                        </div>
+                    </div>
+                </div>
+                <div id="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h3 class="hud-main-text" id="score">
+                        0
+                    </h3>
+                </div>
+            </div>
+            <hr>
+            <br><br><br>
+            <h3 id="question">What is the answer to this question ?</h3>
             <div class="choice-container">
                 <div class="choice-prefix">A</div>
                 <div class="choice-text" data-number="1">Choice 1</div>
@@ -27,7 +49,7 @@
             </div>
             <div class="choice-container">
                 <div class="choice-prefix">D</div>
-                <div class="choice-text" data-number="1">Choice 4</div>
+                <div class="choice-text" data-number="4">Choice 4</div>
             </div>
         </div>
     </div>
